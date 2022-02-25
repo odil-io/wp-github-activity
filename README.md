@@ -1,5 +1,5 @@
 # wp-github-activity
-Add GitHub blocks to Gutenberg.
+Display GitHub activity in your WordPress site in a fancy way.
 
 ## Thoughts
 Either make nother plugin for the Repo activity webhook, or rename this one to something like 'wp-github-repo-activity'.
