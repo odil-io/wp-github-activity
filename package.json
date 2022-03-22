@@ -1,0 +1,34 @@
+{
+	"name": "wp-github-activity",
+	"version": "1.0.0",
+	"description": "Add GitHub blocks to display activity in a repository.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/odil-io/wp-github-activity.git"
+	},
+	"keywords": [
+		"github",
+		"activity",
+		"plugin.",
+		"gutenberg",
+		"wp-block"
+	],
+	"author": "Odilio Witteveen",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/odil-io/wp-github-activity/issues"
+	},
+	"homepage": "https://github.com/odil-io/wp-github-activity#readme",
+	"devDependencies": {
+		"@wordpress/prettier-config": "^1.1.2",
+		"@wordpress/stylelint-config": "^20.0.1"
+	},
+	"stylelint": {
+		"extends": "@wordpress/stylelint-config"
+	},
+	"prettier": "@wordpress/prettier-config"
+}
