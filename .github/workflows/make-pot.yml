@@ -1,2 +1,4 @@
-- name: WordPress .pot File Generator
+--- 
+- 
+  name: "WordPress .pot File Generator"
   uses: iamdharmesh/action-wordpress-pot-generator@v1.0.3
