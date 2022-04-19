@@ -10,9 +10,8 @@ jobs:
     steps:
     - run: git --version # 2.35.1
     - uses: actions/checkout@v2
-    - run: sudo git config --global --add safe.directory "*"
     - name: WordPress .pot File Generator
-      uses: iamdharmesh/action-wordpress-pot-generator@main
+      uses: odil-io/action-wordpress-pot-generator@main
       with:
         destination_path: './languages'
         text_domain: 'oiga'
