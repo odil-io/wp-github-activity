@@ -5,12 +5,12 @@ on:
       - develop
 
      - name: Trust My Directory
-       run: export GIT_CEILING_DIRECTORIES=/__w # only work before git v2.35.2
 
 jobs:
   WP_Generate_POT_File:
     runs-on: ubuntu-latest
     steps:
+    - run: export GIT_CEILING_DIRECTORIES=/__w # only work before git v2.35.2
     - uses: actions/checkout@v2
     - name: WordPress .pot File Generator
       uses: iamdharmesh/action-wordpress-pot-generator@main
