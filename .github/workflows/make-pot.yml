@@ -11,6 +11,8 @@ jobs:
     - run: git --version # 2.35.1
     - uses: actions/checkout@v2
     - run: export GIT_CEILING_DIRECTORIES=/github/workspace # only work before git v2.35.2
+    - run: git config --global --add safe.directory /github/workspace
+    - run: sudo git config --global --add safe.directory /github/workspace
     - name: WordPress .pot File Generator
       uses: iamdharmesh/action-wordpress-pot-generator@main
       with:
