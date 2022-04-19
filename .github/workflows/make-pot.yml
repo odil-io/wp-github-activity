@@ -11,8 +11,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: WordPress .pot File Generator
       uses: iamdharmesh/action-wordpress-pot-generator@main
-      with:
-        destination_path: './languages'
-        text_domain: 'wpga'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
