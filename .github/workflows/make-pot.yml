@@ -10,9 +10,13 @@ jobs:
     steps:
     - name: Git Version Check
     - run: git --version # 2.35.1
+
+    - name: Github Checkout
     - uses: actions/checkout@v2
+
     - name: Export Ceilings
     - run: export GIT_CEILING_DIRECTORIES=/__w # only work before git v2.35.2
+
     - name: WordPress .pot File Generator
       uses: iamdharmesh/action-wordpress-pot-generator@main
       with:
