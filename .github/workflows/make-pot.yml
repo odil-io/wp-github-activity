@@ -14,6 +14,5 @@ jobs:
       uses: odil-io/action-wordpress-pot-generator@main
       with:
         destination_path: './languages'
-        text_domain: 'oiga'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
