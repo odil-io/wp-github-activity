@@ -4,8 +4,6 @@ on:
     branches:
       - develop
 
-     - name: Trust My Directory
-
 jobs:
   WP_Generate_POT_File:
     runs-on: ubuntu-latest
