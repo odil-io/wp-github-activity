@@ -2,7 +2,7 @@
 Display GitHub activity in your WordPress site in a fancy way.
 
 ## Thoughts
-Either make nother plugin for the Repo activity webhook, or rename this one to something like 'wp-github-repo-activity'.
+Either make another plugin for the Repo activity webhook, or rename this one to something like 'wp-github-repo-activity'.
 This depends on if the plugin uses Webhooks, or the REST API.
 
 The plugin could just use Webhooks and require the user to link each repo to the plugin. <- Find a way to automate this.
