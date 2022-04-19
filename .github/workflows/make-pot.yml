@@ -8,7 +8,9 @@ jobs:
   WP_Generate_POT_File:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo git config --global safe.directory "$GITHUB_WORKSPACE"
+    - run: git --version
+    - run: git config --global safe.directory "$GITHUB_WORKSPACE"
+    - run: git config --global safe.directory /github/workspace
     - uses: actions/checkout@v2
     - name: WordPress .pot File Generator
       uses: iamdharmesh/action-wordpress-pot-generator@main
