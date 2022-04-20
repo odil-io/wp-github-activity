@@ -1,0 +1,38 @@
+# Copyright (C) 2022 Odilio Witteveen
+# This file is distributed under the GPL v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Github Activity 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-github-"
+"activity\n"
+"POT-Creation-Date: 2022-04-20T12:17:01+00:00\n"
+"PO-Revision-Date: 2022-04-20 14:27+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Domain: wp-github-activity\n"
+
+#. Plugin Name of the plugin
+msgid "Github Activity"
+msgstr "Github Activity"
+
+#. Plugin URI of the plugin
+msgid "https://odil.io/wordpress/wp-github-activity"
+msgstr "https://odil.io/wordpress/wp-github-activity"
+
+#. Description of the plugin
+msgid "Display your Github Activity."
+msgstr "Toon jouw Github activiteit."
+
+#. Author of the plugin
+msgid "Odilio Witteveen"
+msgstr "Odilio Witteveen"
+
+#. Author URI of the plugin
+msgid "https://odil.io"
+msgstr "https://odil.io"
