@@ -10,8 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: WordPress .pot File Generator
-      uses: odil-io/action-wordpress-language-files@main
+      uses: odil-io/action-compile-language-files@latest
       with:
         destination_path: './languages'
       env:
