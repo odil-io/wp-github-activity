@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: git --version # 2.35.1
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: WordPress .pot File Generator
       uses: odil-io/action-wordpress-pot-generator@main
       with:
