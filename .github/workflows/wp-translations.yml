@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - uses: odil-io/action-compile-language-files@latest
+    - uses: odil-io/action-wordpress-language-files@main
       with:
         destination_path: './languages'
       env:
