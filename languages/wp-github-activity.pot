@@ -2,20 +2,20 @@
 # This file is distributed under the GPL v3 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Plugin Name 1.0.0\n"
+"Project-Id-Version: Github Activity 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-github-activity\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-04-20T11:45:26+00:00\n"
+"POT-Creation-Date: 2022-04-20T11:55:08+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: wp-github-activity\n"
 
 #. Plugin Name of the plugin
-msgid "Plugin Name"
+msgid "Github Activity"
 msgstr ""
 
 #. Plugin URI of the plugin
@@ -23,7 +23,7 @@ msgid "https://odil.io/wordpress/wp-github-activity"
 msgstr ""
 
 #. Description of the plugin
-msgid "Description of the plugin."
+msgid "Display your Github Activity."
 msgstr ""
 
 #. Author of the plugin
