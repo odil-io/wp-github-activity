@@ -1,4 +1,4 @@
-[![Generate POT file](https://github.com/odil-io/wp-github-activity/actions/workflows/make-pot.yml/badge.svg)](https://github.com/odil-io/wp-github-activity/actions/workflows/make-pot.yml)
+[![Language files](https://github.com/odil-io/wp-github-activity/actions/workflows/make-pot.yml/badge.svg)](https://github.com/odil-io/wp-github-activity/actions/workflows/make-pot.yml)
 
 # wp-github-activity
 Display GitHub activity in your WordPress site in a fancy way.
