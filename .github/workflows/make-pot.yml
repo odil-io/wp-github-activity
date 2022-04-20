@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - develop
+      - v1.0.0
 
 jobs:
   WP_Generate_POT_File:
