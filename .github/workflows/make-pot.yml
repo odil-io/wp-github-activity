@@ -1,4 +1,4 @@
-name: Generate POT file
+name: Compile Language Files
 on:
   push:
     branches:
@@ -9,7 +9,6 @@ jobs:
   WP_Generate_POT_File:
     runs-on: ubuntu-latest
     steps:
-    - run: git --version # 2.35.1
     - uses: actions/checkout@v3
     - name: WordPress .pot File Generator
       uses: odil-io/action-wordpress-pot-generator@main
